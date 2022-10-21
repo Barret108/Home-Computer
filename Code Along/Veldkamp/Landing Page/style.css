@@ -1,0 +1,9 @@
+html, body {
+    font-family:'Work Sans';
+    padding: 1vh;
+    padding-left: 2vh;
+}
+
+h2 {
+    font-weight: 500;
+}

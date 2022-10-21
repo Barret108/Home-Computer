@@ -1,0 +1,13 @@
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(214, 255, 212);
+}
+
+#main {
+    display: grid;
+    grid-template-areas: 
+    "Place1 Place2 Place3"
+    "Place4 place5 Place6";
+    grid-template-columns: 40vh 40vh 40vh;
+}

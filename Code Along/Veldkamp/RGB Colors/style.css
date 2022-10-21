@@ -1,0 +1,73 @@
+html, body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+html{
+    background-color: rgb(34, 34, 37);
+}
+
+body {
+    width: 59vh;
+    margin: auto;
+}
+
+hr {
+    width: 10vh;
+    height: 1vh;
+    border: none;
+    background-color: rgb(12, 18, 24);
+    border-radius: 1vh;
+}
+
+h1 {
+    color: white;
+}
+
+#display {
+    background: yellow;
+    border-radius: 1.5vh;
+    height: 20vh;
+    padding: 2vh;
+}
+
+input {
+    width: 16vh;
+    height: 3.7vh;
+    text-align: center;
+    margin-left: 1.1vh;
+    border: none;
+    border-radius: 1vh;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#redIn {
+    background: rgb(255, 165, 165);
+}
+
+#greenIn {
+    background: rgb(165, 255, 172);
+}
+
+#blueIn {
+    background: rgb(165, 186, 255);
+}
+
+button {
+    margin-top: 2vh;
+    height: 5vh;
+    width: 10vw;
+    background-color: rgb(12, 18, 24);
+    border: none;
+    border-radius: 1vh;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(22, 30, 39) ;
+}

@@ -1,0 +1,14 @@
+html {
+  text-align: center;
+}
+
+button {
+  height: 5vh;
+  width: 99%;
+  margin-top: 1vh;
+  border-radius: 1.5vh;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 0 0 2vh 2vh rgb(218, 218, 218);
+  cursor: pointer;
+}
