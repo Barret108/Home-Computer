@@ -1,0 +1,53 @@
+#landing {
+  font-family: "Open-sans", sans-serif;
+  display: flexbox;
+  flex-direction: column;
+  background: url(images/img3.png);
+  background-size: cover;
+  text-align: center;
+
+  height: 865px;
+}
+
+#landingText {
+  padding: 400px;
+  text-align: left;
+}
+
+#d1 h1 {
+  font-size: 50px;
+  color: rgb(252, 252, 252);
+}
+
+#d1 h2 {
+  color: rgb(211, 211, 211);
+  width: 500px;
+}
+
+#d1 button {
+  height: 50px;
+  width: 150px;
+  border-radius: 50px;
+  margin-top: 20px;
+  border: none;
+  background-color: rgba(0, 136, 169, 1);
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: border-radius 0.5s, background-color 0.5s;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.349);
+}
+
+.cta {
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.459);
+}
+
+#d1 button:hover {
+  border-radius: 10px;
+  background-color: rgb(1, 112, 139);
+}
+
+#skew {
+  background-image: url(images/back.svg);
+}

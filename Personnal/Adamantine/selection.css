@@ -1,0 +1,16 @@
+#selection {
+  margin: 200px;
+  font-family: "Open-sans", sans-serif;
+  color: rgb(54, 54, 54);
+  width: 600px;
+}
+
+#selection h1 {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+#selection h2 {
+  color: rgb(114, 114, 114);
+  font-weight: lighter;
+}
