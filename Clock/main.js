@@ -16,13 +16,12 @@ function times() {
   document.getElementById("inp").value = "0:01";
 
   // Styles
-  document.getElementById("btn").style.backgroundColor = "red";
-  document.getElementById("btn").innerText = "Reset";
+
+  document.getElementById("btn").innerHTML = "";
 
   // End Detector
   start++;
   if (start % 2 == 0) {
-    console.log(start);
     location.reload();
   }
 
@@ -46,3 +45,9 @@ function times() {
     document.getElementById("inp").value = format;
   }
 }
+
+/* 
+<svg width="94" height="94" viewBox="0 0 94 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="94" height="94" rx="19" fill="#966464"/>
+</svg>
+*/
