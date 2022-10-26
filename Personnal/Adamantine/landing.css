@@ -2,7 +2,7 @@
   font-family: "Open-sans", sans-serif;
   display: flexbox;
   flex-direction: column;
-  background: url(images/img3.png);
+  background-image: url(images/img3.png);
   background-size: cover;
   text-align: center;
 
@@ -10,7 +10,8 @@
 }
 
 #landingText {
-  padding: 400px;
+  padding-top: 41.7vh;
+  padding-left: 20.9vw;
   text-align: left;
 }
 
@@ -46,8 +47,4 @@
 #d1 button:hover {
   border-radius: 10px;
   background-color: rgb(1, 112, 139);
-}
-
-#skew {
-  background-image: url(images/back.svg);
 }

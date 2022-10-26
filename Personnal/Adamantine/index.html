@@ -21,7 +21,7 @@
         <a class="logo" href="/"><img src="images/logo.svg" alt="logo" /></a>
         <nav>
           <ul class="nav__links">
-            <li><a href="#">Inventory</a></li>
+            <li><a onclick="scrInv()">Inventory</a></li>
             <li><a href="#">Help</a></li>
             <li><a href="#">About</a></li>
           </ul>
@@ -32,8 +32,8 @@
       <div id="mobile__menu" class="overlay">
         <a class="close">&times;</a>
         <div class="overlay__content">
-          <a href="#">Services</a>
-          <a href="#">Projects</a>
+          <a href="#">Inventory</a>
+          <a href="#">Help</a>
           <a href="#">About</a>
         </div>
       </div>
@@ -58,6 +58,9 @@
         odit aut fugit, sed quia consequuntur magni dolores eos.
       </h2>
     </div>
-    <script type="text/javascript" src="main.js"></script>
+    <div id="test"></div>
+    <script src="background.js"></script>
+    <script src="main.js"></script>
+    <script src="scroll.js"></script>
   </body>
 </html>

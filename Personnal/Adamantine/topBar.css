@@ -8,19 +8,20 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 30px 10%;
+  padding: 30px 10vw;
   background-color: #24252a;
 }
 
 .logo {
   position: absolute;
-  left: 70px;
+  left: 4vw;
   top: 40px;
 }
 
 .nav__links {
   list-style: none;
   display: flex;
+  cursor: pointer;
 }
 
 .nav__links a,
@@ -119,7 +120,7 @@ header {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .nav__links,
   .cta {
     display: none;
