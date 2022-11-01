@@ -1,7 +1,19 @@
-async function scrInv() {
-  window.scrollTo(0, window.scrollY++);
-  while (window.scrollY < 800) {
-    await new Promise((r) => setTimeout(r, 0.1));
-    window.scrollTo(0, (window.scrollY += 10));
+// Selection
+function scrollFunction1() {
+
+  window.scroll( {
+      left: 0,
+      top: 700,
+      behavior: "smooth"
+  })
   }
-}
+  
+  // Shop
+  function scrollFunction2() {
+  
+      window.scroll( {
+          left: 0,
+          top: 1400,
+          behavior: "smooth"
+      })
+      }

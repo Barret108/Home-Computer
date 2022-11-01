@@ -1,0 +1,28 @@
+#footer {
+  height: 34vh;
+
+  background-image: url(images/Untitled.png);
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-family: "Open sans", sans-serif;
+  font-weight: 200;
+  padding-top: 5vh;
+}
+
+#footer hr {
+  width: 3vw;
+}
+
+#footer p,
+h3,
+hr {
+  margin: 2vh;
+  margin-left: 7vh;
+}
+
+#footer p {
+  cursor: pointer;
+  width: fit-content;
+}

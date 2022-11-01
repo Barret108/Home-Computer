@@ -8,10 +8,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="topBar.css" />
     <link rel="stylesheet" href="landing.css" />
-    <link rel="stylesheet" href="selection.css" />
+
     <link rel="stylesheet" href="all.css" />
+    <link rel="stylesheet" href="selection.css" />
+    <link rel="stylesheet" href="shop.css" />
+    <link rel="stylesheet" href="footer.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -21,23 +30,15 @@
         <a class="logo" href="/"><img src="images/logo.svg" alt="logo" /></a>
         <nav>
           <ul class="nav__links">
-            <li><a onclick="scrInv()">Inventory</a></li>
+            <li><a onclick="scrollFunction1()">Inventory</a></li>
             <li><a href="#">Help</a></li>
             <li><a href="#">About</a></li>
           </ul>
         </nav>
-        <a class="cta" href="#">Shop</a>
-        <p class="menu cta">Menu</p>
+        <a class="cta" onclick="scrollFunction2()">Shop</a>
       </header>
-      <div id="mobile__menu" class="overlay">
-        <a class="close">&times;</a>
-        <div class="overlay__content">
-          <a href="#">Inventory</a>
-          <a href="#">Help</a>
-          <a href="#">About</a>
-        </div>
-      </div>
     </div>
+
     <div id="landing">
       <div id="landingText">
         <div id="d1">
@@ -51,16 +52,67 @@
     <div id="selection">
       <h1>Our selection</h1>
       <h2>
-        Sed ut perspiciatis, unde omnis iste natus error sit voluptatem
-        accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab
-        illo inventore veritatis et quasi architecto beatae vitae dicta sunt,
-        explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut
-        odit aut fugit, sed quia consequuntur magni dolores eos.
+        The Adamantine collection consists of a large variety of ship types,
+        ships and brands at many different price ranges. Some of our featured
+        ship manufacturers include Origin Jumpworks, Crusader Industries, Aegis
+        Dynamics aswell as Esperia.
       </h2>
+      <img src="images/PngItem_649894.png" />
     </div>
-    <div id="test"></div>
+    <div id="shop">
+      <img src="images/Rectangle 18.png" />
+      <div id="shop2">
+        <h2>Shop</h2>
+        <div id="sects">
+          <div id="s1" class="secondary">
+            Military
+            <img src="images/stat1.svg" />
+            <p>
+              The Strongest Ships That Will Get You Out Of The Toughest
+              Situations
+            </p>
+            <button>Explore</button>
+          </div>
+          <div id="s2" class="primary">
+            Civilian
+            <img src="images/stat2.svg" />
+            <p>
+              Travel Quickly, Smoothly And With Class With Your Very Own Luxury
+              Ship
+            </p>
+            <button>Explore</button>
+          </div>
+          <div id="s3" class="secondary">
+            Commercial
+            <img src="images/stat3.svg" />
+            <p>
+              Heavy Duty Ships That Will Get The Job Done Days Before The
+              Deadline
+            </p>
+            <button>Explore</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div id="contacts">
+        <h3>Contacts</h3>
+        <hr />
+        <p>Gmail</p>
+        <p>Twitter</p>
+        <p>Instagram</p>
+        <p>Youtube</p>
+      </div>
+      <div id="info">
+        <h3>Links</h3>
+        <hr />
+        <p>Landing</p>
+        <p>Selection</p>
+        <p>Shop</p>
+        <p>About</p>
+      </div>
+    </div>
     <script src="background.js"></script>
-    <script src="main.js"></script>
     <script src="scroll.js"></script>
   </body>
 </html>

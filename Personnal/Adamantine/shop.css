@@ -1,0 +1,128 @@
+#shop {
+  margin-top: 12vh;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+#shop img {
+  margin-top: 0;
+  width: 99.6vw;
+}
+
+#shop2 {
+  background-color: black;
+  margin-top: -1vh;
+  height: 100vh;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+}
+
+#sects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 8vh;
+}
+
+#sects div {
+  box-shadow: 0 0 2vh 0.5vh rgb(73, 73, 73);
+  color: black;
+}
+
+#shop h2 {
+  font-size: 60px;
+  padding-top: 7vh;
+}
+
+.secondary {
+  height: 50vh;
+  width: 30vh;
+  margin-top: 15vh;
+  margin: 5vh;
+  background-color: rgb(235, 235, 235);
+  border-radius: 3vh;
+  font-size: 30px;
+  padding-top: 1.5vh;
+}
+
+.primary {
+  height: 60vh;
+  width: 35vh;
+  background-color: rgb(235, 235, 235);
+  border-radius: 3vh;
+  font-size: 30px;
+  padding-top: 1.5vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#s1 img {
+  width: 300px;
+  height: auto;
+  margin-top: -3vh;
+}
+
+#s2 img {
+  width: 330px;
+  height: auto;
+  margin-top: -3vh;
+}
+
+#s3 img {
+  width: 300px;
+  height: auto;
+  margin-left: -1vh;
+  margin-top: -3vh;
+}
+
+#sects p {
+  margin-top: -6vh;
+  width: 30vh;
+  font-size: 20px;
+  font-family: "Open sans", sans-serif;
+  padding: 20px;
+}
+
+#s2 p {
+  width: 35vh;
+  margin-top: -3vh;
+  font-size: 23px;
+}
+
+.secondary button {
+  height: 50px;
+  width: 150px;
+  border-radius: 50px;
+  margin-top: 0.3vh;
+  border: none;
+  background-color: #0088a9;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.349);
+}
+
+.primary button {
+  height: 50px;
+  width: 150px;
+  border-radius: 50px;
+  margin-top: 2vh;
+  margin-left: 9.5vh;
+  border: none;
+  background-color: rgba(0, 136, 169, 1);
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.349);
+}
+
+#sects button:hover {
+  margin-top: 1vh;
+  background-color: rgb(1, 112, 139);
+}
