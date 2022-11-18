@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="canv">
+      <div id="click"><h1>Click</h1></div>
+      <div id="cash"><h2 id="cash2">$$$:</h2></div>
+    </div>
+
+    <div id="upgrades">
+      <div id="workers" class="upgr">
+        <h3>Worker lvl</h3>
+
+        <p id="worklev">Student</p>
+        <h4>$<span id="workPrice">35</span> -> lvl <span id="wlvl">2</span></h4>
+        <button onclick="upgradeWorker()">Upgrade</button>
+      </div>
+
+      <div id="workerscount" class="upgr">
+        <h3>Worker #</h3>
+
+        <p id="workamt">1</p>
+        <h4>
+          $<span id="workamPrice">200</span> -> lvl
+          <span id="workeramountlvl">2</span>
+        </h4>
+        <button onclick="upgradeWorkercnt()">Upgrade</button>
+      </div>
+
+      <div id="assistant" class="upgr">
+        <h3>Assistant #</h3>
+
+        <p id="assistantCount">0</p>
+        <h4>
+          $<span id="assistantPrice">1000</span> -> lvl
+          <span id="assistantLevel">1</span>
+        </h4>
+        <button onclick="upgradeAssistant()">Upgrade</button>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

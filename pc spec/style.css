@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+}
+
+#topBar {
+  height: 84px;
+  background-color: rgb(120, 173, 120);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#topBarButtons {
+  display: flex;
+  flex-direction: row;
+  margin-left: 75%;
+
+  padding-top: 17px;
+}
+
+#home {
+  color: rgb(235, 255, 239);
+}
+
+.topBarText {
+  font-family: "Open sans", "Helvetica";
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#topBar h2 {
+  margin-left: 20px;
+}
+
+#landing {
+  padding-top: 200px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(228, 228, 228);
+  height: 780px;
+}
+
+#landing h1 {
+  font-size: 50px;
+}
+
+#landing img {
+  width: 450px;
+  margin-top: 50px;
+}
+
+#scan {
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#scan h3 {
+  margin-top: 100px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+#scan hr {
+  width: 60px;
+  height: 6px;
+  border: none;
+  background-color: rgb(69, 99, 69);
+  margin-bottom: 40px;
+}
+
+#scan p {
+  font-size: 22px;
+}
+
+#tests {
+  margin-top: 100px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+#router,
+#gpu,
+#cpu {
+  width: 250px;
+  margin-left: 100px;
+}
+
+#router img {
+  width: 140px;
+  margin-top: 65px;
+}
+
+#gpu img {
+  width: 140px;
+  margin-top: 90px;
+}
+
+#cpu img {
+  width: 140px;
+  margin-top: 59px;
+}
+
+#routerImg,
+#gpuImg,
+#cpuImg {
+  background-color: rgb(46, 70, 50);
+  width: 250px;
+  height: 250px;
+  border-radius: 200px;
+}
+
+#router h4,
+#gpu h4,
+#cpu h4 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+#router h5,
+#gpu h5,
+#cpu h5 {
+  font-size: 17px;
+  margin: 5px;
+  font-weight: 400;
+}
+
+#scanTinyText {
+  margin-top: 15px;
+}
+
+#footer {
+  background-color: rgb(48, 48, 48);
+  margin: 0;
+  padding: 0;
+  height: 250px;
+  text-align: center;
+  margin-top: 70px;
+  padding: 30px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footer hr {
+  width: 40px;
+}
+
+#contact {
+  display: flex;
+  flex-direction: row;
+}
+
+#contact h3 {
+  margin-left: 20px;
+}

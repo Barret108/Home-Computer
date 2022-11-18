@@ -1,0 +1,77 @@
+html {
+  background-color: black;
+  color: white;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+#canv {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+}
+
+#click {
+  padding: 6vh;
+  padding-top: 10vh;
+  font-size: 80px;
+  user-select: none;
+}
+
+#cash h2 {
+  margin: 0;
+  font-size: 50px;
+}
+
+#upgrades {
+  background-image: url(img/image.png);
+  background-size: cover;
+  height: 40vh;
+  width: 110vw;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.upgr {
+  background-color: rgb(0, 53, 11);
+  height: 23vh;
+  font-size: 20px;
+  padding: 2vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  width: 10vw;
+  min-width: 100px;
+  border-radius: 10px;
+  margin: 1vh;
+  margin-right: 0.5vh;
+}
+
+.upgr h3 {
+  margin: 0;
+}
+
+.upgr h4 {
+  margin-top: 0vh;
+  margin-bottom: 1vh;
+}
+
+#upgrades button {
+  height: 5vh;
+  width: 6.5vw;
+  min-width: 100px;
+  background-color: rgb(8, 71, 8);
+  border-color: rgb(0, 0, 0);
+  border-style: dashed;
+  border-radius: 15px;
+  cursor: pointer;
+  color: white;
+}
+
+.upgr p {
+  margin-top: 0.2vh;
+}
